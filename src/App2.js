@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
-import bootstrap from "bootstrap";
-//  import App from './App.js'    
+ //  import App from './App.js'    
  const GIT = React.lazy(() => import("./Components/GIT.js"))
  const App = React.lazy(() => import("./App.js"))
  const BD = React.lazy(() => import("./Components/BD.js"))
